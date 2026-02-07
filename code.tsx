@@ -12,10 +12,10 @@ import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged }
 import { getFirestore, collection, doc, setDoc, onSnapshot, addDoc, deleteDoc, getDocs, writeBatch } from 'firebase/firestore';
 
 // --- Configuration ---
-const API_KEY = ""; // Provided by environment (Gemini)
-const UNBOUND_API_KEY = "f978d436fd099dc69b106feb4712a1f7801c017ab6c293d0d11fbe22e77463b2335f181887b2eb015c936eb3218fe764"; 
-const CRUSTDATA_API_KEY = "4b9980320d8d0284bd251e757dda9c941e483b13"; 
-const LINGO_DEV_API_KEY = "api_chzd4vpij6t4wb5nc62q6b8p"; 
+const API_KEY = ""; 
+const UNBOUND_API_KEY = "xxxx"; 
+const CRUSTDATA_API_KEY = "xxx"; 
+const LINGO_DEV_API_KEY = "xxxx"; 
 const MODEL_NAME = "gemini-2.5-flash-preview-09-2025";
 const APP_ID = typeof __app_id !== 'undefined' ? __app_id : 'synthetic-user-lab';
 
@@ -1058,5 +1058,6 @@ const App = () => {
     </div>
   );
 };
+
 
 export default App;
